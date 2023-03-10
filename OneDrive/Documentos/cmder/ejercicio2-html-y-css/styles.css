@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background: #666366;
+}
+
+.login {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 180px 39%; 
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    color: #ffffff;
+    box-shadow: 7px 13px 37px rgb(163, 139, 221);
+    /* position: center; */
+}
+
+@media (min-width: 500px) {
+    .form {
+      width: 100%;
+    }
+  }
+
+.form {
+    width: 100%;
+    padding: 7px 20px;
+}
+
+
+.control {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 86%;
+    height: 25px;
+}
+
+.boton {
+    padding: 5px 15px;
+    margin-left: 85px;
+}
